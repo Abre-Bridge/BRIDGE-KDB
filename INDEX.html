@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="Nav-bar">
+<nav>
+    <img class="Logo" src="logo.png" alt="Logo"/>
+    <ul>
+        <li><a href="ph.html">ABOUT</a></li>
+        <li><a href="#">CV</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="ph.html">PHOTOS</a></li>
+    </ul>
+</nav>
+</div>
+
+<div class="Description">
+    <div class="About">
+        <h1>
+            Hello I am <b>Abre Bridge</b><br>A <b>software Engineer and Web Developper
+        </h1>        
+        <h2>
+            In need of a <b>Company Website , Mobile or PC App?</b><br>
+            I'm your man contact me below on my social media platforms<br> 
+        </h2>
+        <div class="Icons">
+            <a href="www.facebook.com"><img src="Facebook.png"/></a>
+            <a href=""><img src="Instagram.png"/></a>
+            <a href="#"><img src="Twitter.png"/></a>
+            <a href="693281620"><img src="Whatsap.png"/></a>
+        </div>
+        <br><button class="btn">See my work</button>
+    </div>
+    <div class="Pr-P">
+        <img src="Bridge.png" alt="Loading.."/>
+    </div>
+</div>
+
+<footer>©Copyright KDB™</footer>
+
+</body>
+</html>
+
+
+<style>
+
+ul li:hover::after{
+    content: "";
+    display:block; 
+    height: 10px;
+    background: #e9696a;
+    margin-top: 10px;
+}
+a{
+  text-decoration: none;  
+}
+body{
+    background-image: url("bg.png");
+    background-size: cover;
+}
+.Nav-bar {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    list-style: none;
+    padding-top: 22px;
+    position:relative;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.Nav-bar nav ul{
+   position: static;
+    display: flex;
+    margin-left:250px;
+    margin-top: -45px;
+    list-style: none;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.Description{
+    position:relative;
+    margin-top: 150px;
+    margin-left: 25px;
+    
+}
+a{
+    color: white;
+}
+
+li{
+    margin-left: 30px;
+}
+
+h1{
+    color: rgb(251, 125, 126);
+    font-family:'Times New Roman';
+}
+
+h2{
+    color: rgb(251, 125, 126);
+    font-family:'Times New Roman', Times;
+    font-weight: normal;
+}
+
+b{
+    color:rgb(255, 208, 0);
+    font-family:Arial;
+}
+
+.Pr-P img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top:-300px;
+    margin-left: 800px;
+    border-radius: 100%;
+}
+
+.Icons img{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-left: 10px;
+    border-width: 30px;
+    border-color: rgb(255, 0, 0);
+}
+
+.btn{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 860px;
+    border-radius: 30px;
+    border-width: 2px;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 50px;
+    width: 200px;
+}
+
+footer{
+    margin-top: 400px;
+    margin-right: 900px;
+    position:absolute;
+    color: rgb(248, 244, 244);
+    font-family:'Times New Roman';
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+    button:hover{
+    background-color: #ffffffa1;  
+    }
+    
+
+
+
